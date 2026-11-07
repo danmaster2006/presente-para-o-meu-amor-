@@ -108,3 +108,29 @@ font-family: system-ui, -apple-system, sans-serif;
         transform: translateY(180px)
     }
 }
+
+button {
+    position: absolute;
+    top: 47%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+    background: #ea80b0;
+    color: white;
+    border: none;
+    border-radius: 30px;
+
+    padding: 11px 18px;
+    font-size: 13px;
+    font-weight: bold;
+
+    cursor: pointer;
+    box-shadow: 0 0 15px #ea80b0;
+
+    z-index: 9999;
+}
+
+button:hover {
+    background: #ff4f9a;
+    transform: translate(-50%, -50%) scale(1.1);
+}
